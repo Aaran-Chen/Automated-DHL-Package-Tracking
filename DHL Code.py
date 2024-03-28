@@ -8,7 +8,7 @@ import time
 api_key = 'Your_API_Key_Here'
 
 # Define the CSV file path
-csv_file_path = "C:\\Users\\shirl\\Aaran's Stuff\\Aarans' Pycharm Stuff\\Shockwave Stuff\\DHL\\DHL status.csv"
+csv_file_path = "DHL status.csv"
 
 # Function to make the API request with retry logic
 def make_api_request(number, retries=10, delay=5.1):
